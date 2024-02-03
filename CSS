@@ -1,0 +1,113 @@
+.header-img {
+  border-radius: 10px;
+  height: 200px;
+  margin-left: 10px;
+}
+
+body {
+  font-family: arial, sans-serif;
+  max-width: 680px;
+  background: #f7f7f7;
+  margin-left: 10px;
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.description {
+  margin-top: 15px;
+  color: #716765;
+  margin-left: 10px;
+}
+
+.preparation {
+  background: #f0d8e7;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.preparation li {
+  padding: 8px;
+}
+
+.preparation span {
+  font-weight: bold;
+}
+
+h3 {
+  color: #814f67;
+}
+
+li {
+  padding: 10px;
+}
+.ingredients {
+  margin-left: 10px;
+  margin-top: 25px;
+  border-bottom: 1px solid darkgrey;
+}
+.ingredients h2 {
+  color: #7b3f2f;
+}
+
+.ingredients-list {
+  font-size: 14px;
+}
+
+.ingredients-list li {
+  padding: 8px;
+  color: #7b3f2f;
+}
+
+.ingredients-list li span {
+  color: #716765;
+}
+
+.Instructions {
+  border-bottom: 1px solid darkgrey;
+}
+
+.nutrition-description {
+  color: #716765;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.Nutrition h2 {
+  color: #7b3f2f;
+  margin-left: 10px;
+}
+
+.Nutrition-facts {
+  margin-top: 10px;
+  margin: auto;
+  text-align: left;
+}
+
+.Nutrition-facts div {
+  border-bottom: 1px solid darkgrey;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.Nutrition-facts div p {
+  margin-right: 250px;
+  margin-left: 30px;
+  color: #7b3f2f;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Nutrition-facts div p span {
+  color: grey;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.Nutrition-facts div p .value {
+  text-align: star;
+}
