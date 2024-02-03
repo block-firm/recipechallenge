@@ -1,7 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .header-img {
   border-radius: 10px;
-  height: 200px;
+  height: auto;
   margin-left: 10px;
+  max-width: 100%;
 }
 
 body {
@@ -111,3 +117,4 @@ li {
 .Nutrition-facts div p .value {
   text-align: star;
 }
+
